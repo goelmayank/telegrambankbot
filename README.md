@@ -17,13 +17,17 @@ Technologies
 
 Few technical details.
 The structure of the databases is very simple:
-message_queue Table - contains so to speak the message queue for each chat.
-markers Table - contains contact details and coordinates (longitude and latitude) of the bank branch.
-markers_schedule Table - contains a timetable for the offices by day.
-Table text - contains the title and the text of the facts or the board, the type field specifies the type of text.
-atm Table - contains data and coordinates (longitude and latitude) ATMs.
+    message_queue Table - contains so to speak the message queue for each chat.
+    markers Table - contains contact details and coordinates (longitude and latitude) of the bank branch.
+    markers_schedule Table - contains a timetable for the offices by day.
+    Table text - contains the title and the text of the facts or the board, the type field specifies the type of text.
+    atm Table - contains data and coordinates (longitude and latitude) ATMs.
+
 Capabilities
 this bot bot interface replica of the Savings Bank of Russia @SberbankBot. In my opinion, it is very easy to use menu. you can quite easily change it if you wish.
+![alt tag](http://freshbrain.kz/pictures/1-min_1.PNG)
+
+
 Locate a Branch
 The nearest branch is sought in a 2 km radius of your location.
 When sending location bot sends the user name, address and contact information, schedule, approximate distance in meters, and the location on the map.

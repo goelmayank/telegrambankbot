@@ -1,2 +1,41 @@
 # telegrambankbot
 Telegram bot - Virtual Assistant for banks
+
+Boat for a few seconds can answer the simplest questions from customers on exchange rates, the nearest ATM, bank offices, and more. Try bot functionality you can add to @sberbankkztestbot Telegram.
+
+What is now implemented
+
+    Location of the nearest branch or ATM
+    Exchange Rates
+    Information for the client
+
+Technologies
+
+    programming language - PHP
+    Database - MySQL
+    API Telegram
+
+Few technical details.
+The structure of the databases is very simple:
+message_queue Table - contains so to speak the message queue for each chat.
+markers Table - contains contact details and coordinates (longitude and latitude) of the bank branch.
+markers_schedule Table - contains a timetable for the offices by day.
+Table text - contains the title and the text of the facts or the board, the type field specifies the type of text.
+atm Table - contains data and coordinates (longitude and latitude) ATMs.
+Capabilities
+this bot bot interface replica of the Savings Bank of Russia @SberbankBot. In my opinion, it is very easy to use menu. you can quite easily change it if you wish.
+Locate a Branch
+The nearest branch is sought in a 2 km radius of your location.
+When sending location bot sends the user name, address and contact information, schedule, approximate distance in meters, and the location on the map.
+Display currency
+Conclusion exchange rates carried out from the site of the National Bank of the Republic of Kazakhstan.
+Find the nearest ATM
+The nearest ATM is sought in a 2 km radius of your location.
+When sending location bot sends the user name, address, work schedule, approximate distance in meters, and the location on the map.
+Facts and Tips
+Development plans
+    Conclusion drag quotations. metals, oil
+    Quick commands for the conversion (example: 5000 rubles)
+    Sending feedback
+    Scripts answers by product (replacement call center for frequently asked questions)
+    Interface Development for filling and editing database

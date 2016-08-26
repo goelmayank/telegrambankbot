@@ -47,6 +47,7 @@ When sending location bot sends the user name, address, work schedule, approxima
 ![alt tag](http://freshbrain.kz/pictures/5-min.PNG)
 
 **Development plans**
+
 1. Conclusion drag quotations. metals, oil
 2. Quick commands for the conversion (example: 5000 rubles)
 3. Sending feedback

@@ -1,6 +1,6 @@
 # telegrambankbot
-Telegram bot - Virtual Assistant for banks
-Read about Bot in my blog [here](myLib/README.md) (russian language)
+## Telegram bot - Virtual Assistant for banks
+### Read about Bot in my blog [here](myLib/README.md) (russian language)
 
 Boat for a few seconds can answer the simplest questions from customers on exchange rates, the nearest ATM, bank offices, and more. Try bot functionality you can add to @sberbankkztestbot Telegram.
 

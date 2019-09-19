@@ -1,8 +1,9 @@
+<?php include "../inc/dbinfo.inc"; ?>
 <?php
 /**
  * Telegram Bot access token e URL.
  */
-$access_token = '';
+$access_token = '796910044:AAFv9Ogprp6YmqXHNrEfsKsM8qREcgEWIX0';
 $api          = 'https://api.telegram.org/bot' . $access_token;
 
 $output     = json_decode(file_get_contents('php://input'), TRUE);
@@ -32,15 +33,7 @@ $emoji = array(
     'video' => json_decode('"\uD83D\uDCF9"')
 );
 
-/**
- * Database connect string
- */
-$servername = "";
-$username   = "";
-$password   = "";
-$dbname     = "";
-
-$conn = new mysqli($servername, $username, $password, $dbname);
+$conn = new mysqli($DB_SERVER, $DB_USERNAME, $DB_PASSWORD, $DB_DATABASE);
 
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
